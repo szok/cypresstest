@@ -1,0 +1,19 @@
+{
+  "name": "cytest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "@cypress/webpack-preprocessor": "latest",
+    "cypress": "^10.8.0",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "webpack": "^5.74.0"
+  }
+}
